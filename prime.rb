@@ -1,7 +1,7 @@
 # Add  code here!
 def prime?(number)
   array = []
-  i = 2
+  i = 1
     for i in i..number-1 do
       array.push(i)
       i += 1
