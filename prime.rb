@@ -11,7 +11,7 @@ def prime?(number)
   x = 0
   modulos = []
       array.each do
-        modulos.push(number/array[x])
+        modulos.push(number % array[0])
         x += 1
       end
         if modulos.include?(0) == false
