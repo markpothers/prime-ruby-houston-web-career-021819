@@ -20,5 +20,5 @@ def prime?(number)
       if modulos.include?(0)
         prime = false
       end
-  return prime
+  return modulos
 end
