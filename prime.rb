@@ -9,15 +9,12 @@ def prime?(number)
 
   prime = false
   x = 0
-    if number < 2
-      prime = false
-    end
   modulos = []
       array.each do
         modulos.push(number/array[x])
         x += 1
       end
-        if modulos.include?(0) == false
+        if modulos.include?(0) == false && modulos.length > 0
           prime = true
         end
     return "#{modulos} #{prime}"
