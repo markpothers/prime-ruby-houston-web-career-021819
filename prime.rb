@@ -1,6 +1,6 @@
 # Add  code here!
 def prime?(number)
-  array = [1]
+  array = []
   i = 2
     for i in i..number-1 do
       array.push(i)
