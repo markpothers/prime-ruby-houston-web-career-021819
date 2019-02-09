@@ -17,8 +17,8 @@ def prime?(number)
         modulos.push(number/array[x])
         x += 1
       end
-      if modulos.include?(0)
-        prime = false
-      end
+        if modulos.include?(0)
+          prime = false
+        end
   return modulos
 end
