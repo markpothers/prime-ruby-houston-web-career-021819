@@ -17,5 +17,8 @@ def prime?(number)
         if modulos.include?(0) == false && modulos.length > 0
           prime = true
         end
+  if number < 2
+    prime = false
+  end
     return "#{modulos} #{prime}"
 end
