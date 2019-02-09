@@ -12,11 +12,13 @@ def prime?(number)
     if number < 2
       prime = false
     end
+  modulos = []
       array.each do
-        if number % array[x] == 0
-          x += 1
-          prime = false
-        end
+        modulos.push(number/array[x])
+        x += 1
+      end
+      if modulos.include?(0)
+        prime = false
       end
   return prime
 end
