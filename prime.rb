@@ -13,7 +13,7 @@ def prime?(number)
       prime = false
     end
       array.each do
-        if number % array[x] = 0
+        if number % array[x] == 0
           x += 1
           prime = false
         end
