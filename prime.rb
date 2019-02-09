@@ -20,5 +20,5 @@ def prime?(number)
   if number < 2
     prime = false
   end
-    return "#{modulos} #{prime}"
+    return prime #"#{modulos} #{prime}"
 end
