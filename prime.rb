@@ -10,10 +10,10 @@ def prime?(number)
   prime = true
   x = 0
   number = number.to_f
+    if number < 1
+      prime = false
+    end
       array.each do
-        if number < 1
-          prime = false
-        end
         if number/array[x] == (number/array[x]).floor
           x += 1
           prime = false
