@@ -9,9 +9,6 @@ def prime?(number)
 
   prime = false
   x = 0
-    if number < 2
-      prime = false
-    end
   modulos = []
       array.each do
         modulos.push(number/array[x])
