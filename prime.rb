@@ -9,12 +9,11 @@ def prime?(number)
 
   prime = true
   x = 0
-  number = number.to_f
     if number < 2
       prime = false
     end
       array.each do
-        if number % array[x] != 0
+        if number % array[x] = 0
           x += 1
           prime = false
         end
