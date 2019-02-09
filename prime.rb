@@ -9,7 +9,7 @@ def prime?(number)
 
   prime = false
   x = 0
-  modulos = []
+  modulos = [1]
       array.each do
         modulos.push(number % array[x])
         x += 1
