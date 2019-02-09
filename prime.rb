@@ -7,7 +7,7 @@ def prime?(number)
       i += 1
     end
 
-  prime = true
+  prime = false
   x = 0
     if number < 2
       prime = false
@@ -18,7 +18,7 @@ def prime?(number)
         x += 1
       end
         if modulos.include?(0)
-          prime = false
+          prime = true
         end
   return modulos
 end
