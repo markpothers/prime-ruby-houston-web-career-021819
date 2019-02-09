@@ -6,7 +6,7 @@ def prime?(number)
       array.push(i)
       i += 1
     end
-    
+
   prime = true
   x = 0
   number = number.to_f
