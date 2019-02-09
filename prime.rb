@@ -6,14 +6,15 @@ def prime?(number)
       array.push(i)
       i += 1
     end
+    
   prime = true
   x = 0
   number = number.to_f
-  array.each do
-    if number/array[x] == (number/array[x]).floor
-      x += 1
-      prime = false
-    end
-  end
-  return true
+      array.each do
+        if number/array[x] == (number/array[x]).floor
+          x += 1
+          prime = false
+        end
+      end
+  return prime
 end
