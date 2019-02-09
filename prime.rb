@@ -9,9 +9,7 @@ def prime?(number)
   x = 0
   number = number.to_f
   array.each do
-    if (number / array[x]).is_a? Integer
       x += 1
-      return false
     end
   end
   return true
