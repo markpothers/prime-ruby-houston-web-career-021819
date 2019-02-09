@@ -10,7 +10,7 @@ def prime?(number)
   prime = true
   x = 0
   number = number.to_f
-    if number < 1
+    if number < 2
       prime = false
     end
       array.each do
